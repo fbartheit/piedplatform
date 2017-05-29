@@ -1,0 +1,73 @@
+/*
+
+background one #D9D9D9 ALUMINUM
+accent one     #E37222 TANGERINE
+accent two     #062F4F INK
+accent three   #1D2731 IVORY BLACK
+
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.module_select{
+	background-color: #D9D9D9;
+	text-align: center;
+	margin: 0px -14px;
+}
+
+.module_select > a,
+.module_select > a:hover,
+.module_select > a:visited{
+	text-decoration: none;
+	color: #1D2731;
+	width: 100%;
+}
+
+.module_select > a > div{
+	padding: 15px 10px 10px 10px;
+}
+
+.module_select span{
+	font-size: 5.0em;
+}
+
+.module_select h4:after{
+	content: "";
+	position: absolute;
+	width: 99%;
+	height: 2px;
+	margin-left: 1px;
+	bottom: 0;
+	left: 0;
+	background-color: #1D2731;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.module_select:hover h4:after {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.module_actions_title{
+	font-size: 1.3em;
+	margin-left: -15px;
+}
+
+.module_actions_buttons a{
+	float:right;
+	color: #1D2731;
+	font-size: 2.0em;
+	margin-right: 15px;
+}
+
+form .col-lg-2 .col-lg-1 {
+	width: 100%;
+}
