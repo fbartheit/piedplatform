@@ -3,7 +3,7 @@
 /* @var $this yii\web\View */
 use app\widgets\module_select_widget\ModuleSelectWidget;
 
-$this->title = 'Pied Piper - Home';
+$this->title = 'Data Bucket - Home';
 ?>
 <div class="site-index">
 	<div class="container">

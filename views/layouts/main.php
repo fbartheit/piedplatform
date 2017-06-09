@@ -28,7 +28,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'Pied Piper',
+        'brandLabel' => 'Data Bucket',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -46,6 +46,7 @@ AppAsset::register($this);
 					 ['label' => 'Sync Alerts', 'url' => Url::to(['sync-alerts/'])],
 					 ['label' => 'Tables Manager', 'url' => Url::to(['tables-manager/'])],
 					 ['label' => 'Jobs Manager', 'url' => Url::to(['jobs-manager/'])],
+					 ['label' => 'Sync Jobs (PHP)', 'url' => Url::to(['sync-job/'])],
 					 ['label' => 'Spark Monitor', 'url' => Url::to(['spark-monitor/'])],
 				],
 			]),

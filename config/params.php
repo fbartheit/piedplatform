@@ -18,6 +18,11 @@ return [
 			'controller' => 'jobs-manager'
 		],
 		[
+			'name' => 'Sync Jobs (PHP)',
+			'iconClass' => 'glyphicon glyphicon-refresh',
+			'controller' => 'sync-job'
+		],
+		[
 			'name' => 'Spark Monitor',
 			'iconClass' => 'glyphicon glyphicon-fire',
 			'controller' => 'spark-monitor'
